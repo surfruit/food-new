@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Щотижневе меню</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Щотижневе меню</h1>
+    </header>
+    <main>
+      <section id="breakfast">
+        <h2>Сніданок</h2>
+        <div class="card-container"></div>
+        <div class="card-container"></div>
+        <div class="card-container"></div>
+      </section>
+      <section id="lunch">
+        <h2>Обід</h2>
+        <div class="card-container"></div>
+        <div class="card-container"></div>
+        <div class="card-container"></div>
+      </section>
+      <section id="dinner">
+        <h2>Вечеря</h2>
+        <div class="card-container"></div>
+        <div class="card-container"></div>
+        <div class="card-container"></div>
+      </section>
+      <button id="generate-btn">Згенерувати нові рецепти</button>
+      <!-- Модальне вікно для відображення рецепту -->
+<div id="recipe-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3 class="modal-recipe-title"></h3>
+    <div class="modal-recipe-image"></div>
+    <div class="modal-recipe-description"></div>
+  </div>
+</div>
+
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
